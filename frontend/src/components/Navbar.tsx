@@ -6,9 +6,7 @@ export const Navbar = () => {
       {/* Logo */}
       <div className="flex-1">
         <Link to="/">
-          <span className="font-nosifer text-2xl from-red-400 via-red-500 to-red-600 bg-gradient-to-r text-transparent bg-clip-text">
-            GenX AI
-          </span>
+          <span className="font-nosifer text-2xl ">GenX AI</span>
         </Link>
       </div>
 
@@ -19,7 +17,7 @@ export const Navbar = () => {
         <a href="https://twitter.com/behalnihal">
           <FaTwitter size={24} className="hover:text-neutral-200" />
         </a>
-        <a href="https://www.linkedin.com/in/behalnihal/">
+        <a href="https://www.linkedin.com/in/nihalgupta0/">
           <FaLinkedin size={24} className="hover:text-neutral-200" />
         </a>
       </div>
